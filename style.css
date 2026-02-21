@@ -1,0 +1,75 @@
+*{
+   box-sizing:border-box;
+   overflow: hidden;
+}
+.container{
+    min-height:100vh;
+    width:100%;
+    max-width:700px;
+    border:1px solid red;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F0E47;
+    margin : 0 auto;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    max-width:600px;
+    gap: 40px;
+    border:1px solid green;  
+    background-color: #505081;
+    padding:20px;             
+}
+.name-section{
+    display:flex;
+    flex-direction: column;
+    
+}
+label{
+    font-size: 16px;
+    font-weight: bold;
+}
+.email-section{
+    display:flex;
+    flex-direction: column;
+
+}
+.sub-section{
+    display:flex;
+    flex-direction: column;
+
+}
+textarea{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:80px;
+    outline:none;
+}
+input{
+    width:100%;
+    height:40px;
+    border:none;
+    border-radius: 4px;
+}
+button{
+    width:100%;
+    max-width:110px;
+    /* height:30px; */
+    align-self: center;
+    font-size: 20px;
+    text-align: center;
+    padding:6px;
+    border:none;
+    background-color: #007EFF;
+    font-weight: bold;
+    color:white;
+}
+input:focus {
+    outline: none;
+}
